@@ -1,0 +1,269 @@
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Styling for the header */
+header {
+    background-image: url('banner.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+h1{
+    font-family: 'Nabla',sans-serif;
+    font-size:small;
+}
+#scrollToGame{
+    font-family:'Dela Gothic One' ;
+
+}
+#scrollToAbout{
+    font-family:'Dela Gothic One' ;
+ 
+}
+
+#scrollToCopy{
+    font-family:'Dela Gothic One';
+}
+
+#scrollToStory{
+    font-family:'Dela Gothic One';
+}
+
+#frase{
+    font-family:'Dela Gothic One' ;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.quoting{
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: 200px auto;    
+}
+
+
+
+
+#quoteDisplay{
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    border: 20px;
+    padding-left: 10px;
+    font-family: 'Work Sans';
+    font-size: 25px;
+    font-weight: 700;
+}
+.shinchan{
+    display: flex;
+    justify-items: flex-start;
+}
+#quote-button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    right: 25px;
+    background-color: white;
+    color: black;
+    font-family:'Dela Gothic One' ;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero h1 {
+    font-size:100px;
+    margin-bottom: 0.5em;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+.cta-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-family:'Dela Gothic One' ;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color:red;
+}
+
+/* Main content styles */
+main {
+   
+    padding: 20px;
+   background: linear-gradient(135deg, #e8c35e, #e9dfa1);
+    justify-content: center;
+}
+
+
+
+#frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+   
+}
+
+
+#game {
+    /* Center the game section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#feature{
+    font-family:'Dela Gothic One' ;
+    text-align: center;
+}
+
+#font-feature{
+    font-family: 'Work Sans';
+    font-size:xx-large;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#about{
+    font-family:'Dela Gothic One' ;
+    text-align: center;
+}
+#font-about{
+    font-family: 'Work Sans';
+    font-size:xx-large;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#copy{
+    font-family:'Dela Gothic One' ;
+    text-align: center;
+}
+#story{
+    font-family:'Dela Gothic One' ;
+    text-align: center;
+}
+
+#font-story{
+    font-family: 'Work Sans';
+    font-size:xx-large;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#git{
+    font-family:'Dela Gothic One' ;
+    text-align: center;
+
+}
+
+#afonso{
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#daniela{
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    text-align: center;
+    justify-items: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#nando{
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    text-align: center;
+    justify-items: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#santi{
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    text-align: center;
+    justify-items: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#rui{
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    text-align: center;
+    justify-items: center;
+    color: black;
+    font-weight: bolder;
+}
+.github{
+    text-align: center;
+}
+
+.github a{
+    display: block;
+            margin-bottom: 10px; 
+}
+/* Footer styles */
+footer {
+    background:black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+

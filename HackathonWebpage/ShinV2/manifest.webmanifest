@@ -1,0 +1,12 @@
+{
+  "name": "ShinChan's Shenanigans",
+  "short_name": "ShinChan's Shenanigans",
+  "id": "com.example.platformer",
+  "description": "An example of a basic platformer (Mario-like) game. Jump around and collect as many coins as you can!",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
